@@ -2,6 +2,7 @@
 	
 require 'Mandrill.php';
 
+#create an app on Mandrill and put app key 
 $mandrill = new Mandrill('MENDRILL-APP-KEY');
 
 $email = $_POST['email']; 
@@ -13,6 +14,7 @@ $message = array(
     'to' => array(array('email' => $email )),
      );
 
+#saved template nameT
 $template_name = 'TEMPLATE_NAME';
 
 $template_content = "";
