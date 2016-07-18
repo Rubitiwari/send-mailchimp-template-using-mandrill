@@ -2,7 +2,7 @@
 	
 require 'Mandrill.php';
 
-#create an app on Mandrill and put app key 
+#create an app on Mandrill and replace 'MENDRILL-APP-KEY' with app key.
 $mandrill = new Mandrill('MENDRILL-APP-KEY');
 
 $email = $_POST['email']; 
