@@ -1,4 +1,4 @@
-# send-mailchimp-template-using-mandrill
+# Send-mailchimp-template-using-mandrill
 A Mailchimp template can be sent from PHP by using Mandrill APIs.
 
 You can push templates from your linked MailChimp account to Mandrill by following these steps.
