@@ -14,7 +14,7 @@ $message = array(
     'to' => array(array('email' => $email )),
      );
 
-#saved template nameT
+#saved template name
 $template_name = 'TEMPLATE_NAME';
 
 $template_content = "";
